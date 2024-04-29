@@ -1,0 +1,153 @@
+  body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #B7202E;
+            padding:1px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+          z-index: 1000;
+        }
+
+        header ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          overflow: hidden;
+
+        }
+
+
+
+header li:hover {
+    background-color: red; /* Cambia el color al pasar el mouse por encima */
+}
+
+        header li {
+            float: left;
+            margin-right: 8px;
+padding: 5px;
+font-size: 12px;
+padding:5px;
+
+
+        }
+
+        header a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+h2{
+font-size: 10px;
+ text-align: center;
+padding: 0px;
+}
+
+        main {
+         margin-top: 50px; 
+	margin-left:-60px;
+	padding: 20px;
+        display: flex;
+          justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+       
+
+.main-section {
+ margin-left: 0px;
+left: 0px;
+top: 0px;
+ padding:40px;
+ font-size: 3px;
+    
+}
+
+
+
+.copy-button {
+	
+    cursor: pointer;
+    background-color: #C0C0C0;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+ font-size: 8.8px;
+    transition: background-color 0.3s; /* Agrega una transición para suavizar el cambio de color */
+}
+
+.copy-button:hover {
+    background-color: #808080; /* Cambia el color al pasar el mouse por encima */
+}
+
+.copy-button::before {
+               font-size: 20px;
+            margin-right: 5px;
+
+}
+
+
+  
+.guion{
+    position: absolute;
+    width: 35%;
+    height: 35%;
+    top: 10%;
+    text-align: justify;
+font-size: 5px;
+}
+
+.guion2{
+    position: absolute;
+    left: 34%;
+    top: 60px;
+    width: 35% ;
+    height: 50%;
+font-size: 5px;
+
+}
+
+.guion3{
+    position: absolute;
+    left: 68%;
+    top: 60px;
+    width: 35% ;
+    height: 50%;
+font-size: 5px;
+
+}
+
+   .memos {
+            background-color: blue;
+
+           
+        }
+
+
+ .vertical-menu {
+	right: 0; 	
+            width: 100px;
+            background-color: #333;
+            color: white;
+            position: absolute;
+            top: 20%;
+            transform: translateY(-50%);
+        }
+
+        .vertical-menu a {
+            background-color: #333;
+            color: white;
+            display: block;
+            padding: 12px;
+            text-decoration: none;
+        }
+
+        .vertical-menu a:hover {
+            background-color: #555;
+        }
